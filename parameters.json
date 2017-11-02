@@ -5,38 +5,38 @@
         "location": {
             "value": "westus"
         },
-        "virtualMachineName": {
-            "value": "automation-test"
+        "virtualMachineName":  {
+            "value": "olga-lecture6"
         },
         "virtualMachineSize": {
             "value": "Standard_B1s"
         },
         "adminUsername": {
-            "value": "toddysmroot"
+            "value": "olgaroot"
         },
         "virtualNetworkName": {
-            "value": "nsc-automation-vnet"
+            "value": "olga-lecture6"
         },
-        "networkInterfaceName": {
-            "value": "automation-test932"
+        "networkInterfaceName":  {
+            "value": "olga-lecture6-nsg"
         },
         "diskSizeGB": {
             "value": "30"
         },
         "networkSecurityGroupName": {
-            "value": "automation-test-nsg"
+            "value": "olga-lecture6-nsg"
         },
         "adminPassword": {
             "value": null
         },
         "diagnosticsStorageAccountName": {
-            "value": "nscautomationdiag"
+            "value": "olgal6diag"
         },
         "diagnosticsStorageAccountType": {
             "value": "Standard_LRS"
         },
         "diagnosticsStorageAccountId": {
-            "value": "Microsoft.Storage/storageAccounts/nscautomationdiag"
+            "value": "Microsoft.Storage/storageAccounts/olgal6diag"
         },
         "addressPrefix": {
             "value": "10.0.0.0/24"
@@ -48,7 +48,7 @@
             "value": "10.0.0.0/24"
         },
         "publicIpAddressName": {
-            "value": "automation-test-ip"
+            "value": "olga-lecture6-pubip"
         },
         "publicIpAddressType": {
             "value": "Dynamic"
